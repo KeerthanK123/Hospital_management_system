@@ -1,0 +1,34 @@
+Function Main():
+    Display menu options:
+        1. Add Patient
+        2. Update Patient
+        3. Display Patient
+        4. Delete Patient
+        5. Schedule Appointment
+        6. Cancel Appointment
+        7. Generate Bill
+        8. Update Bill Status
+        9. Exit
+
+    WHILE user does not choose Exit:
+        Get user choice
+        IF user chooses Add Patient:
+            Call AddPatient()
+        ELSE IF user chooses Update Patient:
+            Call UpdatePatient()
+        ELSE IF user chooses Display Patient:
+            Call DisplayPatient()
+        ELSE IF user chooses Delete Patient:
+            Call DeletePatient()
+        ELSE IF user chooses Schedule Appointment:
+            Call ScheduleAppointment()
+        ELSE IF user chooses Cancel Appointment:
+            Call CancelAppointment()
+        ELSE IF user chooses Generate Bill:
+            Call GenerateBill()
+        ELSE IF user chooses Update Bill Status:
+            Call UpdateBillStatus()
+        ELSE:
+            Print message: "Invalid choice, try again"
+
+END
